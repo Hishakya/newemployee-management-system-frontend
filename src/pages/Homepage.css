@@ -1,0 +1,21 @@
+.title {
+  text-align: center;
+}
+
+.button {
+  text-decoration: none;
+  display: block;
+  background-color: #dddddd;
+  color: #555555;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+dd {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background-color: #D8F5FF;
+}

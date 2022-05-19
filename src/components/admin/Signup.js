@@ -19,8 +19,9 @@ const Signup = () => {
     event.preventDefault();
     axios
       .post(
+        `https://newemployee-management-system-frontend-er2olcmr1-hishakya.vercel.app/app/admin/signup`,
         // "https://employee-management-system-backend.vercel.app/admin/signup",
-        "https://localhost:4000/app/admin/signup",
+        //"https://localhost:4000/app/admin/signup",
         input
       )
       .then((response) => setAlert(response.data));

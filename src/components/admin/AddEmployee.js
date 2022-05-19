@@ -24,8 +24,9 @@ const AddEmployee = ({ getToken }) => {
     event.preventDefault();
     axios
       .post(
+        "https://newemployee-management-system-frontend-er2olcmr1-hishakya.vercel.app/app/admin/add",
         //"https://employee-management-system-backend.vercel.app/admin/add",
-        "https://localhost:4000/app/admin/add",
+       // "https://localhost:4000/app/admin/add", wrkng
         // ' https://admin-system-backend.vercel.app/signup',
         // http://localhost:4000/app/employee/signup
         input,

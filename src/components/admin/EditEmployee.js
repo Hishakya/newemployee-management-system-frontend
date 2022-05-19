@@ -16,7 +16,8 @@ const EditEmployee = ({ getToken }) => {
     event.preventDefault();
     axios
       .put(
-         `https://employee-management-system-backend.vercel.app/admin/edit/${id}`,
+        `https://newemployee-management-system-frontend-er2olcmr1-hishakya.vercel.app/app/admin/edit/${id}`,
+        // `https://employee-management-system-backend.vercel.app/admin/edit/${id}`,
         // "https://localhost:4000/app/admin/edit/${id}",
         input,
         {
